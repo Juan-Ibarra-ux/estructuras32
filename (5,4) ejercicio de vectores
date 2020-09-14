@@ -1,0 +1,9 @@
+>>> busqueda_lineal([1, 4, 54, 3, 0, -1], 4
+-1
+>>> busqueda_lineal([1, 4, 54, 3, 0, -1], 3)
+3
+>>> busqueda_lineal([1, 4, 54, 3, 0, -1], 0)
+4
+>>> busqueda_lineal([], 0)
+-1
+>>>

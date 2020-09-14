@@ -1,0 +1,12 @@
+In [8]: clf()   # Limpiamos toda la figura
+
+In [9]: x2 = x**2   # definimos el array x2
+
+In [10]: x3 = x**3    # definimos el array x3
+
+In [11]: # dibujamos tres curvas en el mismo gráfico y figura
+In [12]: plot(x, x, 'b.', x, x2, 'rd', x, x3, 'g^')
+Out[13]:
+[<matplotlib.lines.Line2D object at 0x8e959cc>,
+<matplotlib.lines.Line2D object at 0x8eb75cc>,
+<matplotlib.lines.Line2D object at 0x8eb788c>]
